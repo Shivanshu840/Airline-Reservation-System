@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+#text{
+    direction: rtl;
+    
+}
+
+
+
+#bg2{
+    background-color: aliceblue;
+}
+#select1{
+    background:rgb(172, 89, 124);
+}
+#text2{
+    direction: ltr;
+}
+.h{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/1710482/pexels-photo-1710482.jpeg');
+    position: absolute;
+    background-size: cover;
+   
+
+
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+    border-radius: 10px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 5px #0005;
+    overflow: hidden;
+}
+
+.banner-container .banner .shoe{
+    flex:1 1 250px;
+    padding:10px;
+    text-align: center;
+}
+
+.banner-container .banner .shoe img{
+    width:40%;
+}
+
+.banner-container .banner .content{
+    flex:1 1 250px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+.banner-container .banner .content span{
+    color:#eee;
+    font-size: 25px;
+}
+
+.banner-container .banner .content h3{
+    color:#fff;
+    font-size: 40px;
+}
+
+.banner-container .banner .content p{
+    color:#eee;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.banner-container .banner .content .btn{
+    display: block;
+    height:40px;
+    width:100px;
+    line-height: 40px;
+    background: #fff;
+    color:#d63031;
+    margin:5px auto;
+    text-decoration: none;
+}
+
+

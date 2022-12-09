@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 200%;
+    width:100%;
+    background-image: url("https://images.pexels.com/photos/175656/pexels-photo-175656.jpeg");
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    border-radius: 30px;
+    width: 550px;
+    height: 1170px;
+    position: relative;
+    margin:6%auto;
+    padding: 5px;
+    overflow: hidden;
+    background:rgba(132, 144, 155, 0.557);
+    
+}
+.button-box{
+    width:220px;
+    margin:35px auto;
+    position: relative;
+    box-shadow:0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 30px ;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline:none;
+    position:relative;
+}
+
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 2s;
+}
+.submit-btn{
+    width: 85%;
+    padding:30px 70px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border:0;
+    outline:none;
+    border-radius: 30px;
+
+
+}
+
+
+
+
+
+
